@@ -18,3 +18,9 @@ function capitalize(userinput) {
   let result = cap + newword;
   return result;
 }
+
+function lastLetter(userinput) {
+  let str = userinput.length;
+  let newword = userinput.charAt(str - 1);
+  return newword.toString();
+}
